@@ -1,0 +1,27 @@
+body {
+    background-color: #1a1a2e; /* গাঢ় নীল রঙ */
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #00d2ff;
+}
+
+button {
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px #990033;
+}
+
+button:active {
+    box-shadow: 0 2px #990033;
+    transform: translateY(3px);
+}
